@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "AI-Based Student Management System – Backend API",
+  "main": "src/server.js",
+  "scripts": {
+    "backend:start": "node src/server.js",
+    "backend:dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "grades:cleanup-invalid:dry": "node scripts/cleanup-invalid-grades.js --dry-run",
+    "grades:cleanup-invalid": "node scripts/cleanup-invalid-grades.js --apply"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "express-validator": "^7.2.0",
+    "google-auth-library": "^10.6.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.1",
+    "nodemailer": "^8.0.3",
+    "sequelize": "^6.37.1",
+    "string-similarity": "^4.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

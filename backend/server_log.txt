@@ -1,0 +1,5 @@
+✅ Database connection established successfully.
+✅ Database models synchronized.
+🚀 AI Student Management Server running on http://localhost:5000
+📊 Health check: http://localhost:5000/health
+🌍 Environment: development

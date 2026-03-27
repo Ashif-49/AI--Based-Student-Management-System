@@ -1,0 +1,19 @@
+{
+  "name": "ai-based-student-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend:start": "npm --prefix backend start",
+    "backend:dev": "npm --prefix backend run dev",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "grades:cleanup-invalid:dry": "npm --prefix backend run grades:cleanup-invalid:dry",
+    "grades:cleanup-invalid": "npm --prefix backend run grades:cleanup-invalid",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

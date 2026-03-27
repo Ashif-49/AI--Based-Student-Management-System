@@ -1,0 +1,18 @@
+.dashboard {}
+.chart-title { font-size: 16px; font-weight: 700; color: var(--text-primary); margin-bottom: 4px; font-family: var(--font-serif); letter-spacing: 0.01em; }
+.chart-sub { font-size: 12px; color: var(--text-muted); margin-bottom: 16px; font-family: var(--font-sans); }
+
+.risk-pie-container { display: flex; align-items: center; gap: 16px; }
+.risk-legend { flex: 1; display: flex; flex-direction: column; gap: 10px; }
+.risk-legend-item { display: flex; align-items: center; gap: 10px; }
+.risk-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+
+.quick-actions { display: flex; flex-direction: column; gap: 10px; margin-top: 4px; }
+.quick-action-item {
+  display: flex; align-items: center; gap: 14px;
+  padding: 12px 16px; text-decoration: none;
+  border-radius: var(--radius-md) !important;
+  transition: all var(--transition-base);
+}
+.quick-action-item:hover { background: var(--bg-card-hover); transform: translateX(4px); }
+.quick-action-emoji { font-size: 24px; flex-shrink: 0; }

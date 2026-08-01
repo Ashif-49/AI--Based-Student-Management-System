@@ -93,4 +93,4 @@ Rules enforced by the cleanup:
 
 ## Notes For PowerShell
 
-If `npm` is blocked by execution policy on Windows PowerShell, use `npm.cmd` instead of `npm`
+If `npm` is blocked by execution policy on Windows PowerShell, use `npm.cmd` instead of `npm`.
